@@ -15,6 +15,11 @@ let l = parseInt(k);
 for (let i = 0; i < arr.length - k + 1; i++) {
   let first = arr[i];
   let second = arr[i + 1];
+  for (let j = i; j < l - 1; j++) {
+    let max = Math.max(first, second);
+    first = max;
+    second = arr[j + 2];
+  }
 }
 
 
