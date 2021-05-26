@@ -24,4 +24,5 @@ for (let i = 0; i < arr.length - k + 1; i++) {
   l += 1;
 }
 
-
+console.log(maxArr);
+alert(`Your array ${arr} 's ${k}-length subarrays's maximum-value-array is ${maxArr}`);
