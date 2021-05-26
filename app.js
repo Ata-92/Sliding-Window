@@ -20,6 +20,8 @@ for (let i = 0; i < arr.length - k + 1; i++) {
     first = max;
     second = arr[j + 2];
   }
+  maxArr.push(parseInt(first));
+  l += 1;
 }
 
 
