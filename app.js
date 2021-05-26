@@ -11,3 +11,10 @@ while (true) {
 
 let maxArr = [];
 let l = parseInt(k);
+
+for (let i = 0; i < arr.length - k + 1; i++) {
+  let first = arr[i];
+  let second = arr[i + 1];
+}
+
+
